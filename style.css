@@ -1,0 +1,42 @@
+*{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+.decor{
+    display: flex;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+span{
+    color: coral;
+}
+#border{
+    border-left: 5px red solid;
+    padding-left: 20px;
+}
+.property{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.property img{
+    width: 60%;
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: crimson;
+}
