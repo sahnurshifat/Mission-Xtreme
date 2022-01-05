@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-.decor{
+.decoration{
     display: flex;
     width: 100%;
 }
@@ -19,12 +19,15 @@ span{
 }
 #border{
     border-left: 5px red solid;
+    border-radius: 5px;
     padding-left: 20px;
 }
 .property{
     width: 50%;
     margin-left: 50px;
     margin-top: 20px;
+    margin-right: 50px;
+    text-align: justify;
 }
 .property img{
     width: 60%;
@@ -35,8 +38,41 @@ span{
     color: white;
     font-size: 15px;
     font-weight: 800;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
     padding: 10px 30px;
     border-radius: 5px;
     background-color: crimson;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 60px 0 40px 0;
+}
+#mission{
+    background-color: 	#ffffe0;
+    border-radius: 20px;
+    padding: 0 30px 0 30px ;
+}
+#mission p{
+    margin-top: 20px;
+}
+#vission{
+    background-color: #fff0f5;
+    border-radius: 20px;
+    padding: 0 30px 0 30px ;
+}
+#vission p{
+    margin-top: 20px;
+}
+#goal{
+    background-color: #dcffec;
+    border-radius: 20px;
+    padding: 0 30px 0 30px ;
+}
+#goal p{
+    margin-top: 20px;
 }
