@@ -92,8 +92,23 @@ h3{
     font-weight: 800;
 }
 .limits{
-    margin-top: 110px;
+    margin-top: 100px;
     padding-right: 50px;
     text-align: justify;
 }
+#last{
+    display: flex;
+    width: 100%;
+}
+h5{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 200px 10px 10px 0px;
 
+
+}
+}
+#last img{
+    width: 60%;
+    margin: 40px 0 20px 20%;
+}
