@@ -8,6 +8,7 @@
 .decoration{
     display: flex;
     width: 100%;
+    margin-bottom: 70px;
 }
 h1{
     font-size: 50px;
@@ -15,7 +16,7 @@ h1{
     margin-bottom: 20px;
 }
 span{
-    color: coral;
+    color: #87CEFA;
 }
 #border{
     border-left: 5px red solid;
@@ -42,8 +43,9 @@ span{
     margin-bottom: 25px;
     padding: 10px 30px;
     border-radius: 5px;
-    background-color: crimson;
+    background-color: #FFB6C1;
 }
+
 
 
 h2{
@@ -77,6 +79,9 @@ h2{
 #goal p{
     margin-top: 20px;
 }
+
+
+
 .consultation{
     width: 50%;
     margin-left: 50px;
@@ -87,6 +92,9 @@ h2{
 .consultation img{
     width: 90%;
 }
+
+
+
 h3{
     font-size: 30px;
     font-weight: 800;
@@ -96,19 +104,44 @@ h3{
     padding-right: 50px;
     text-align: justify;
 }
-#last{
-    display: flex;
-    width: 100%;
-}
-h5{
-    font-size: 25px;
-    font-weight: 800;
-    margin: 200px 10px 10px 0px;
 
 
+
+#phero{
+    box-shadow: 10px 10px 30px ;
+    background-color: #fff0f5;
+    border-radius: 20px;
+    padding: 0 30px 15px 30px ;
 }
+#facebook{
+    box-shadow: 10px 10px 30px ;
+    background-color: #e4f5ff;
+    border-radius: 20px;
+    padding: 0 30px 15px 30px ;
 }
-#last img{
-    width: 60%;
-    margin: 40px 0 20px 20%;
+#linkedin{
+    box-shadow: 10px 10px 30px ;
+    background-color: #fff7eb;
+    border-radius: 20px;
+    padding: 0 30px 15px 30px ;
+}
+#github{
+    box-shadow: 10px 10px 30px ;
+    background-color: 	#e3ffe3;
+    border-radius: 20px;
+    padding: 0 30px 15px 30px ;
+}
+
+
+
+#bottom{
+    background-color: black;
+    text-align: center;
+    color: white; 
+    padding: 50px 0 50px 0;
+}
+#year{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
